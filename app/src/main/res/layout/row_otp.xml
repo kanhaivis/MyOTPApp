@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextOTPField1"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:background="@color/gray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextOTPField2"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/gray"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextOTPField3"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/gray"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/editTextOTPField4"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+

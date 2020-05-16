@@ -1,0 +1,2 @@
+rootProject.name='MyOTPApp'
+include ':app'
